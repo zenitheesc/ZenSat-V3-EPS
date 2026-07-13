@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 2.54
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,12 +50,29 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -124,9 +141,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1524,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.0762,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -137,7 +154,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1524,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -224,7 +241,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -450,7 +467,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -627,35 +644,30 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Power Supply ZensatV3.kicad_sch",
-        "name": "Battery PCB",
-        "uuid": "6a944414-5a0a-4eac-90e8-e0086eed0373"
-      },
-      {
-        "filename": "untitled.kicad_sch",
-        "name": "Main PCB",
-        "uuid": "6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
+        "filename": "main.kicad_sch",
+        "name": "Main",
+        "uuid": "64de738a-78a3-405a-9208-2090dc1f201b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-11,L1-5,#PWR1-21,BT1-4,C1-30,R1-11,#BATTN1,#BATTP1,J1-2,Q1,TH1-2,D1-10",
     "variants": []
   },
   "sheets": [
     [
-      "6a944414-5a0a-4eac-90e8-e0086eed0373",
-      "Battery PCB"
+      "64de738a-78a3-405a-9208-2090dc1f201b",
+      "Main"
     ],
     [
-      "6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f",
-      "Main PCB"
+      "4e272359-939b-4428-bdf1-656f4c28d372",
+      "Regulators"
     ],
     [
-      "6f10124d-5d15-4383-909a-fdb3e4c3579e",
-      "3.3V Regulator"
+      "87265ed7-3614-439d-98ab-bc8ca0914738",
+      "Monitors"
     ],
     [
-      "4de43dab-f863-4c83-ad61-cc663ad5462f",
-      "5V Regulator"
+      "2e922904-ff10-4af4-b918-0c7939a35aa2",
+      "Charger"
     ]
   ],
   "text_variables": {},

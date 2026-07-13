@@ -4155,7 +4155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0584a256-6b4c-4b8c-9cb4-01dae9e17f05")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 267.97 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4215,7 +4215,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4233,7 +4233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a625c1f-04db-4ed0-8840-ed6ecd7c3a80")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 127.8733 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4342,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b81da72-7d5d-4b86-832f-3311c856906b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 120.65 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4498,7 +4498,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4516,7 +4516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7663d4da-130a-4e08-a5f3-6f084fb0e1c9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 60.96 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4576,7 +4576,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4594,7 +4594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ca0740-a356-474e-af80-73231fa775e7")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 127.8733 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +4703,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b0c7e7-23a8-49bc-b81f-eda6a75d5ca9")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 65.6433 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4972,7 +4972,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5168,98 +5168,6 @@
 				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
 					(reference "J1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 179.07 62.23)
-		(size 25.4 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4de43dab-f863-4c83-ad61-cc663ad5462f")
-		(property "Sheetname" "5V Regulator"
-			(at 179.07 61.5184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "5vreg.kicad_sch"
-			(at 179.07 81.8646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Power Supply ZensatV3"
-				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 179.07 33.02)
-		(size 25.4 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "6f10124d-5d15-4383-909a-fdb3e4c3579e")
-		(property "Sheetname" "3.3V Regulator"
-			(at 179.07 32.3084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "3V3Reg.kicad_sch"
-			(at 179.07 52.6546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Power Supply ZensatV3"
-				(path "/6407b9bb-bcf3-46ce-88dc-7e023cbc9b7f"
-					(page "3")
 				)
 			)
 		)
