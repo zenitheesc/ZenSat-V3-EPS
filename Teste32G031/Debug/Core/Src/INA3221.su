@@ -1,0 +1,10 @@
+../Core/Inc/platform/arch/stm32x/platform_stm32.h:37:13:delay_ms	16	static
+../Core/Inc/platform/arch/stm32x/platform_stm32.h:75:16:i2c_transmit	40	static
+../Core/Inc/platform/arch/stm32x/platform_stm32.h:83:16:i2c_receive	40	static
+../Core/Src/INA3221.c:7:24:read	72	static
+../Core/Src/INA3221.c:21:16:write	32	static
+../Core/Src/INA3221.c:27:16:to_value	16	static
+../Core/Src/INA3221.c:36:9:ina3221_init	64	static
+../Core/Src/INA3221.c:58:9:ina3221_config	48	static
+../Core/Src/INA3221.c:75:9:ina3221_mensurement	96	static
+../Core/Src/INA3221.c:159:6:ina3221_alive	56	static
