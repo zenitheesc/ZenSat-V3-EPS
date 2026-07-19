@@ -63,13 +63,19 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -204,7 +210,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -231,7 +241,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -535,7 +550,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -649,7 +664,7 @@
         "uuid": "64de738a-78a3-405a-9208-2090dc1f201b"
       }
     ],
-    "used_designators": "U1-11,L1-5,#PWR1-21,BT1-4,C1-30,R1-11,#BATTN1,#BATTP1,J1-2,Q1,TH1-2,D1-10",
+    "used_designators": "U1-11,L1-5,#PWR1-24,BT1-4,C1-30,R1-12,#BATTN1,#BATTP1,J1-2,Q1,TH1-2,D1-10",
     "variants": []
   },
   "sheets": [

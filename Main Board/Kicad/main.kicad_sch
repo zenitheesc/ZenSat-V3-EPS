@@ -3513,6 +3513,10 @@
 		(uuid "0d7f58d8-8c3b-4651-b390-052d48a7e622")
 	)
 	(no_connect
+		(at 264.16 55.88)
+		(uuid "15054d8d-9284-47f6-bc3b-96a779b5f013")
+	)
+	(no_connect
 		(at 251.46 66.04)
 		(uuid "2c209815-8673-4005-acd4-69b40e1f0891")
 	)
@@ -3533,16 +3537,8 @@
 		(uuid "45c6079b-2087-4886-bc2c-b732a4a7e9ee")
 	)
 	(no_connect
-		(at 264.16 55.88)
-		(uuid "46925207-28e3-42b5-9c1b-dc64e522ad8e")
-	)
-	(no_connect
 		(at 264.16 73.66)
 		(uuid "4797d177-559c-4913-9687-09fce1cbb936")
-	)
-	(no_connect
-		(at 264.16 58.42)
-		(uuid "6deeda7e-bc03-4821-9f0b-b5f7d2418013")
 	)
 	(no_connect
 		(at 264.16 50.8)
@@ -3551,6 +3547,10 @@
 	(no_connect
 		(at 264.16 48.26)
 		(uuid "88d15757-8130-415c-b1ff-33068a40b6aa")
+	)
+	(no_connect
+		(at 264.16 58.42)
+		(uuid "9ea98356-acd2-4bc7-b904-53af7f3a6ad9")
 	)
 	(no_connect
 		(at 251.46 63.5)
@@ -4292,7 +4292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc1bf68-46df-4d69-a3eb-1f1109a34b07")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 63.5 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4352,7 +4352,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a3598fd-9901-459e-9642-e73ba37b2155")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 168.91 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -4430,7 +4430,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4448,7 +4448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "924192af-b978-44b4-a536-9da60450d3a2")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 168.91 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4508,7 +4508,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4989,7 +4989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b022a5-6692-4c89-82b5-2312b2b2952a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 175.26 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5049,7 +5049,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5067,7 +5067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1be57b7-0d3f-4850-a50e-2e0684974634")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR03"
 			(at 181.61 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5127,15 +5127,15 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b"
-					(reference "#PWR019")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 173.99 99.06)
-		(size 25.4 36.83)
+		(at 173.99 80.01)
+		(size 20.32 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5150,7 +5150,7 @@
 		)
 		(uuid "2e922904-ff10-4af4-b918-0c7939a35aa2")
 		(property "Sheetname" "Charger"
-			(at 173.99 98.3484 0)
+			(at 173.99 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5161,7 +5161,7 @@
 			)
 		)
 		(property "Sheetfile" "charger.kicad_sch"
-			(at 173.99 136.4746 0)
+			(at 173.99 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5169,6 +5169,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "NTC" passive
+			(at 173.99 82.55 180)
+			(uuid "048872ad-0a8f-4449-a3a2-f64834d8b31f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL1" input
+			(at 173.99 86.36 180)
+			(uuid "73da65c9-4a77-4af9-b7fa-7565a14d3464")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL2" input
+			(at 173.99 88.9 180)
+			(uuid "7a56029f-bd7e-4c48-8278-dd590a26120d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL3" input
+			(at 173.99 91.44 180)
+			(uuid "43046fbb-880b-489b-8b07-6912638e9e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL4" input
+			(at 173.99 93.98 180)
+			(uuid "6c60c594-d060-4bf9-a400-42988e309f00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CHRG}" output
+			(at 173.99 97.79 180)
+			(uuid "c03501ba-f3b3-46da-a19f-7105476b7539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FAULT}" output
+			(at 173.99 101.6 180)
+			(uuid "3792b57e-1a97-4d8e-b82d-c9d0a76626bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
