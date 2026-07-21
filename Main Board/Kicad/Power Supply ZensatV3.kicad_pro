@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -212,6 +212,9 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
+        0.3,
+        0.5,
         1.0,
         2.0
       ],
@@ -664,7 +667,7 @@
         "uuid": "64de738a-78a3-405a-9208-2090dc1f201b"
       }
     ],
-    "used_designators": "U1-11,L1-5,#PWR1-24,BT1-4,C1-30,R1-12,#BATTN1,#BATTP1,J1-2,Q1,TH1-2,D1-10",
+    "used_designators": "U1-11,L1-5,#PWR1-44,BT1-4,C1-30,R1-24,#BATTN1,#BATTP1,J1-5,Q1,TH1-2,D1-10,JP1-15",
     "variants": []
   },
   "sheets": [
@@ -678,7 +681,7 @@
     ],
     [
       "87265ed7-3614-439d-98ab-bc8ca0914738",
-      "Monitors"
+      "Monitor"
     ],
     [
       "2e922904-ff10-4af4-b918-0c7939a35aa2",

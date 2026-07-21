@@ -344,6 +344,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1151,6 +1332,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Reference_Current:LM234Z-3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1693,117 +2052,146 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 72.39 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f8109e8-9532-447c-b0da-a8885c64ff34")
+	(text "Solar MPPT & Battery charger"
+		(exclude_from_sim no)
+		(at 156.972 69.342 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "88e00c9a-0415-49e3-8ec5-dc6281cc1f03")
 	)
 	(junction
-		(at 170.18 91.44)
+		(at 171.45 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14fd8821-97d1-4514-8596-cd156f76d0c5")
 	)
 	(junction
-		(at 222.25 86.36)
+		(at 223.52 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bf2bea1-e2c1-4513-886d-71bb1558b1ec")
 	)
 	(junction
-		(at 140.97 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26e27528-7408-4986-96d2-e0eef891dd4b")
-	)
-	(junction
-		(at 200.66 86.36)
+		(at 201.93 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c52a22b-60d6-42f9-8bfd-647993e6adf8")
 	)
 	(junction
-		(at 125.73 91.44)
+		(at 127 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "418a079b-940b-416c-98db-bbc1cbf3f224")
 	)
 	(junction
-		(at 187.96 104.14)
+		(at 142.24 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "571331b1-becb-4591-8841-2318a1516b37")
+	)
+	(junction
+		(at 71.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ebc047e-4059-4b99-9234-525569ea9690")
+	)
+	(junction
+		(at 189.23 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fc74e23-1739-48e6-b7e1-0dac9778aa58")
 	)
 	(junction
-		(at 97.79 91.44)
+		(at 142.24 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65048797-5661-4f93-9992-b1ff453eef7d")
+	)
+	(junction
+		(at 99.06 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65fff68d-f411-4bab-a3e4-afd4bd32b6f2")
 	)
 	(junction
-		(at 228.6 86.36)
+		(at 229.87 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e75eeec-6a17-48b9-91d5-78e33b9ee632")
 	)
 	(junction
-		(at 118.11 91.44)
+		(at 119.38 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ed8b3a7-59c5-4c86-84ee-ded09976025e")
 	)
 	(junction
-		(at 118.11 76.2)
+		(at 119.38 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "783fde93-05b6-4a64-ad5a-0215407d1c1f")
 	)
 	(junction
-		(at 187.96 96.52)
+		(at 189.23 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83a3845d-3c85-45f5-a76a-a23e39adccf0")
 	)
 	(junction
-		(at 170.18 86.36)
+		(at 171.45 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d232880-51d7-4eec-98d1-787c2cf4978f")
 	)
 	(junction
-		(at 97.79 76.2)
+		(at 88.9 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "907acb00-e2b3-4bb2-a8b6-c3278ed874a5")
+		(uuid "95c8c8a9-02f1-424e-aced-9a13644e2acb")
 	)
 	(junction
-		(at 81.28 76.2)
+		(at 77.47 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92d22743-0e83-4316-a453-c27d285cec98")
+		(uuid "9695d15e-62a1-4dfd-9fa2-8a27829efd6f")
 	)
 	(junction
-		(at 214.63 86.36)
+		(at 71.12 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b571848-3e1f-4489-bf6b-6a3725a9aeb7")
+	)
+	(junction
+		(at 215.9 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b9afc27-b53f-4048-99e9-0fbaff350c19")
 	)
 	(junction
-		(at 72.39 76.2)
+		(at 71.12 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a844fd02-4e3f-4af5-a6dd-b8ae4fbcef7b")
+		(uuid "c17d0179-f32a-4ffd-b2c4-92c3e5ee8fc4")
 	)
 	(junction
-		(at 72.39 71.12)
+		(at 85.09 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bab46fb7-f39b-46c0-9427-13dab4527dcc")
+		(uuid "dcff277b-3a81-403b-bc47-20d8ad22d74e")
+	)
+	(junction
+		(at 99.06 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f438d35b-5256-4672-91cb-ad6458f763e5")
 	)
 	(wire
 		(pts
-			(xy 200.66 93.98) (xy 200.66 111.76)
+			(xy 201.93 100.33) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 170.18 86.36)
+			(xy 168.91 92.71) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1823,17 +2211,57 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 72.39 81.28)
+			(xy 142.24 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05bab976-4421-44e8-9879-9bd76ba352c6")
+		(uuid "03fa437c-5bd7-43d5-ae3e-f40d8786e026")
 	)
 	(wire
 		(pts
-			(xy 167.64 93.98) (xy 171.45 93.98)
+			(xy 71.12 88.9) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cfba30-0dd0-47e4-ab5c-4481c6e7a3e0")
+	)
+	(wire
+		(pts
+			(xy 85.09 78.74) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc129bc-0429-440c-b981-e6ad0e54bcf3")
+	)
+	(wire
+		(pts
+			(xy 71.12 82.55) (xy 71.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0a411a-77bc-464f-afab-f665a5c1baed")
+	)
+	(wire
+		(pts
+			(xy 52.07 104.14) (xy 52.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13314052-9ebc-4bf4-bd5e-0b305144f04e")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 172.72 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +2271,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 86.36) (xy 140.97 86.36)
+			(xy 50.8 101.6) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1496019c-ce65-456b-a990-9a4248b837a4")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 222.25 96.52)
+			(xy 189.23 102.87) (xy 223.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 187.96 97.79)
+			(xy 189.23 102.87) (xy 189.23 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +2311,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 86.36) (xy 222.25 96.52)
+			(xy 52.07 91.44) (xy 52.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28723332-d83d-4f77-a3b0-5c9c93663a97")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 223.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 95.25) (xy 214.63 95.25)
+			(xy 172.72 101.6) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 200.66 86.36)
+			(xy 171.45 92.71) (xy 201.93 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1903,7 +2351,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 85.09) (xy 228.6 86.36)
+			(xy 52.07 66.04) (xy 52.07 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8d5eab-1aa8-456c-9656-1a7686e86b20")
+	)
+	(wire
+		(pts
+			(xy 229.87 91.44) (xy 229.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1913,17 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 62.23 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de45604-3bc7-4890-8165-117d95d67312")
-	)
-	(wire
-		(pts
-			(xy 97.79 91.44) (xy 97.79 93.98)
+			(xy 99.06 97.79) (xy 99.06 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 93.98) (xy 228.6 111.76)
+			(xy 229.87 100.33) (xy 229.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +2391,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 83.82) (xy 125.73 85.09)
+			(xy 50.8 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9f861c-64ea-4dc2-b56a-def55a0f06e6")
+	)
+	(wire
+		(pts
+			(xy 127 90.17) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 125.73 91.44)
+			(xy 119.38 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1963,17 +2421,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 76.2) (xy 140.97 86.36)
+			(xy 50.8 78.74) (xy 52.07 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51d10502-9b85-47da-b0d7-2c0bd1936980")
+		(uuid "4f93b05a-5a74-4064-afe4-13904b04e434")
 	)
 	(wire
 		(pts
-			(xy 69.85 60.96) (xy 72.39 60.96)
+			(xy 88.9 82.55) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5322925e-3507-4c2c-9885-ab93a2e03ff2")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 71.12 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 83.82) (xy 125.73 83.82)
+			(xy 124.46 90.17) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 97.79 91.44)
+			(xy 119.38 97.79) (xy 99.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2003,17 +2471,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 76.2) (xy 154.94 76.2)
+			(xy 71.12 76.2) (xy 71.12 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59a27f49-7ee6-48ed-8ad1-47afb37236db")
+		(uuid "59eea6ba-4335-454f-9602-07568e4333d4")
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 187.96 104.14)
+			(xy 50.8 76.2) (xy 60.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baa75d6-b1d1-4881-bf12-8f27cea87ca9")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 189.23 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2501,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 172.72 101.6)
+			(xy 83.82 82.55) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9671d8-146a-48be-9bcc-f9438ce9aeec")
+	)
+	(wire
+		(pts
+			(xy 168.91 107.95) (xy 173.99 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 91.44) (xy 72.39 91.44)
+			(xy 68.58 101.6) (xy 71.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2043,17 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 81.28 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4d2ee8-3775-481b-94cb-bd2a0c086bb0")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 142.24 101.6)
+			(xy 139.7 107.95) (xy 143.51 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2063,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 86.36) (xy 222.25 86.36)
+			(xy 222.25 92.71) (xy 223.52 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2073,7 +2551,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 88.9) (xy 97.79 91.44)
+			(xy 77.47 82.55) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7132cd25-0c88-42fb-802c-494029c7a97d")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 99.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2083,7 +2571,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 104.14) (xy 138.43 101.6)
+			(xy 139.7 110.49) (xy 139.7 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2093,7 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 170.18 91.44)
+			(xy 168.91 97.79) (xy 171.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2103,17 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 97.79 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "781788d2-c8f8-47e3-9b5b-6eab4cb07183")
-	)
-	(wire
-		(pts
-			(xy 69.85 81.28) (xy 72.39 81.28)
+			(xy 68.58 88.9) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2123,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 187.96 96.52)
+			(xy 189.23 97.79) (xy 189.23 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2133,17 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 71.12) (xy 72.39 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5a9f3b-87fe-4ca8-8e72-e6f94b7a79d5")
-	)
-	(wire
-		(pts
-			(xy 125.73 90.17) (xy 125.73 91.44)
+			(xy 127 96.52) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2153,17 +2621,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 81.28) (xy 62.23 81.28)
+			(xy 52.07 78.74) (xy 52.07 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89ada3ff-14fc-41e1-85ae-f517f852986f")
+		(uuid "894571a4-717a-4f98-8f4e-ea8cb0c558f5")
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 154.94 76.2)
+			(xy 156.21 87.63) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2173,7 +2641,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 99.06) (xy 97.79 100.33)
+			(xy 99.06 105.41) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2183,17 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 62.23 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b8f153-4b93-4304-b308-ae0a3bbd66ca")
-	)
-	(wire
-		(pts
-			(xy 187.96 110.49) (xy 187.96 111.76)
+			(xy 189.23 116.84) (xy 189.23 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +2661,27 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 215.9 86.36)
+			(xy 50.8 66.04) (xy 52.07 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977b1519-aa6b-4a85-9a19-dd7fc80213ef")
+	)
+	(wire
+		(pts
+			(xy 88.9 82.55) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a089da3-24cb-4216-a26b-874408b6a57f")
+	)
+	(wire
+		(pts
+			(xy 215.9 92.71) (xy 217.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2691,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 118.11 78.74)
+			(xy 119.38 82.55) (xy 119.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 118.11 91.44)
+			(xy 119.38 95.25) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2711,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 86.36) (xy 228.6 86.36)
+			(xy 223.52 92.71) (xy 229.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 168.91 99.06)
+			(xy 168.91 105.41) (xy 170.18 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +2731,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 203.2 86.36)
+			(xy 201.93 92.71) (xy 204.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2263,17 +2741,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 81.28 80.01)
+			(xy 50.8 91.44) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac1eaaa8-837e-4ac7-ab7f-1f6ef82250d1")
+		(uuid "ac88fb3e-5181-4ae9-9a03-3b5c31550c09")
 	)
 	(wire
 		(pts
-			(xy 171.45 93.98) (xy 171.45 95.25)
+			(xy 172.72 100.33) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2761,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 72.39 71.12)
+			(xy 77.47 78.74) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7bd325-4300-4fdc-bf1a-63770de3f260")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2781,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 97.79 83.82)
+			(xy 99.06 82.55) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2791,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 91.44) (xy 142.24 91.44)
+			(xy 127 97.79) (xy 143.51 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2801,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 109.22) (xy 138.43 111.76)
+			(xy 139.7 115.57) (xy 139.7 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 142.24 96.52)
+			(xy 140.97 102.87) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 172.72 104.14)
+			(xy 173.99 107.95) (xy 173.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 88.9) (xy 228.6 86.36)
+			(xy 229.87 95.25) (xy 229.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 140.97 76.2)
+			(xy 119.38 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2363,7 +2851,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 106.68) (xy 154.94 111.76)
+			(xy 156.21 113.03) (xy 156.21 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 214.63 95.25)
+			(xy 215.9 92.71) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2383,27 +2871,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 62.23 60.96)
+			(xy 142.24 92.71) (xy 140.97 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c75dd775-7c8d-46cf-b4c7-24a00da289db")
+		(uuid "cc1a9ba5-c438-49fc-b41d-76554b4fbbfd")
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 72.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f635cc-864f-4f33-94bb-a91e17c85723")
-	)
-	(wire
-		(pts
-			(xy 187.96 104.14) (xy 187.96 105.41)
+			(xy 189.23 110.49) (xy 189.23 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2891,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 187.96 96.52)
+			(xy 50.8 63.5) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f3b1b1-c712-4e33-a9cb-e2b6d6bad3cc")
+	)
+	(wire
+		(pts
+			(xy 168.91 102.87) (xy 189.23 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2911,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 72.39 71.12)
+			(xy 68.58 76.2) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2921,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 102.87) (xy 187.96 104.14)
+			(xy 71.12 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bab9a3-ddb6-46a4-9af6-807b97434de5")
+	)
+	(wire
+		(pts
+			(xy 189.23 109.22) (xy 189.23 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 91.44) (xy 187.96 91.44)
+			(xy 184.15 97.79) (xy 189.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 86.36) (xy 214.63 86.36)
+			(xy 212.09 92.71) (xy 215.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2961,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 85.09) (xy 81.28 87.63)
+			(xy 88.9 91.44) (xy 88.9 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +2971,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 142.24 99.06)
+			(xy 85.09 82.55) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8080a98-ed0a-4cac-83de-0fafe0dda0c8")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 52.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9331c8d-858d-4318-a1a8-cc44d7b0ff3a")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 143.51 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 118.11 76.2)
+			(xy 99.06 82.55) (xy 119.38 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +3011,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 175.26 91.44)
+			(xy 171.45 97.79) (xy 176.53 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2501,42 +3019,57 @@
 		)
 		(uuid "ff3467d6-edaf-4279-9908-3d2bb226c874")
 	)
-	(hierarchical_label "SOL2"
+	(global_label "+SOL_Sense"
 		(shape input)
-		(at 58.42 71.12 180)
+		(at 77.47 78.74 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "18db0ac4-22f2-4402-88d9-365c0d96f7d6")
+		(uuid "8f42b4dc-138e-437f-987d-01eee8a928c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 64.0829 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "SOL4"
+	(global_label "-SOL_Sense"
 		(shape input)
-		(at 58.42 91.44 180)
+		(at 85.09 78.74 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "18f609e8-3705-4e5d-aff2-9a981d4ebf91")
-	)
-	(hierarchical_label "SOL3"
-		(shape input)
-		(at 58.42 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "be37360c-4906-4734-ac5f-467351f6a8db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 64.0829 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify right)
 		)
-		(uuid "208469a8-b86b-4bb5-8ba2-93c8a852f896")
 	)
 	(hierarchical_label "~{FAULT}"
 		(shape output)
-		(at 140.97 99.06 180)
+		(at 140.97 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2547,7 +3080,7 @@
 	)
 	(hierarchical_label "~{CHRG}"
 		(shape output)
-		(at 140.97 96.52 180)
+		(at 140.97 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2558,7 +3091,7 @@
 	)
 	(hierarchical_label "NTC"
 		(shape passive)
-		(at 168.91 99.06 0)
+		(at 170.18 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2567,20 +3100,20 @@
 		)
 		(uuid "be614904-43b9-42a3-96ad-d7fdc2d66ff7")
 	)
-	(hierarchical_label "SOL1"
+	(hierarchical_label "~{SHDN}"
 		(shape input)
-		(at 58.42 60.96 180)
+		(at 140.97 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f6a1b314-a729-4c5f-92f6-b3cca55f9a31")
+		(uuid "e6bfb150-aea1-4c6b-b316-2480d0448a39")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 111.76 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2589,9 +3122,19 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1420bd31-a7b0-4356-849b-3e03c2621754")
-		(property "Reference" "#PWR021"
-			(at 154.94 118.11 0)
+		(uuid "0c2a13e3-47b1-4899-9db0-cc103d5def29")
+		(property "Reference" "J2"
+			(at 46.355 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.355 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2601,18 +3144,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 154.94 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 111.76 0)
+		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2623,7 +3156,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 111.76 0)
+			(at 45.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87bd4166-f744-4dd8-ac51-c1f8eb774a4e")
+		)
+		(pin "2"
+			(uuid "4cc70e2e-507f-4da2-b489-112d75a75f68")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1420bd31-a7b0-4356-849b-3e03c2621754")
+		(property "Reference" "#PWR034"
+			(at 156.21 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2634,7 +3248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 111.76 0)
+			(at 156.21 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +3264,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR021")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2658,7 +3272,7 @@
 	)
 	(symbol
 		(lib_id "Reference_Current:LM234Z-3")
-		(at 118.11 83.82 0)
+		(at 119.38 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2668,8 +3282,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3056ea-bb46-4f20-9c56-7c2bfaea4b82")
-		(property "Reference" "U8"
-			(at 114.3 82.5499 0)
+		(property "Reference" "U7"
+			(at 115.57 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2680,7 +3294,7 @@
 			)
 		)
 		(property "Value" "LM234DT"
-			(at 114.3 85.0899 0)
+			(at 115.57 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2691,7 +3305,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 118.745 88.265 0)
+			(at 120.015 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2704,7 +3318,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm134.pdf"
-			(at 118.11 83.82 0)
+			(at 119.38 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +3330,7 @@
 			)
 		)
 		(property "Description" "1μA to 10mA 3-Terminal Adjustable Current Source, TO-92"
-			(at 118.11 83.82 0)
+			(at 119.38 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +3352,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2746,7 +3360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 100.33 0)
+		(at 99.06 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2756,8 +3370,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3876c538-912a-4af1-97d2-c9b3b2b23f75")
-		(property "Reference" "#PWR019"
-			(at 97.79 106.68 0)
+		(property "Reference" "#PWR032"
+			(at 99.06 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +3382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 105.41 0)
+			(at 99.06 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2778,7 +3392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 100.33 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +3403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 100.33 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2800,7 +3414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 100.33 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2816,7 +3430,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2824,7 +3438,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 111.76 0)
+		(at 229.87 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2834,8 +3448,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d4947e0-eca5-46d1-b92d-90fd368853ff")
-		(property "Reference" "#PWR024"
-			(at 228.6 118.11 0)
+		(property "Reference" "#PWR037"
+			(at 229.87 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +3460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 116.84 0)
+			(at 229.87 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2856,7 +3470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 111.76 0)
+			(at 229.87 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +3481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 111.76 0)
+			(at 229.87 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +3492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 111.76 0)
+			(at 229.87 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +3508,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR024")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2902,7 +3516,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 66.04 91.44 180)
+		(at 64.77 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2912,8 +3526,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f2ad5c4-c112-433b-8e27-7777815eafb1")
-		(property "Reference" "D5"
-			(at 66.3575 85.09 0)
+		(property "Reference" "D6"
+			(at 65.0875 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2923,7 +3537,7 @@
 			)
 		)
 		(property "Value" "1N5819HW"
-			(at 66.3575 87.63 0)
+			(at 65.0875 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2933,7 +3547,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 66.04 91.44 0)
+			(at 64.77 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,7 +3558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 91.44 0)
+			(at 64.77 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +3569,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 66.04 91.44 0)
+			(at 64.77 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,7 +3588,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2982,7 +3596,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 187.96 107.95 180)
+		(at 189.23 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2992,8 +3606,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cde6bc-ca78-4f0d-a652-84d5816ff81d")
-		(property "Reference" "R12"
-			(at 190.5 106.6799 0)
+		(property "Reference" "R17"
+			(at 191.77 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3004,7 +3618,7 @@
 			)
 		)
 		(property "Value" "412k"
-			(at 190.5 109.2199 0)
+			(at 191.77 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3015,7 +3629,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 187.96 107.95 0)
+			(at 189.23 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,7 +3640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 107.95 0)
+			(at 189.23 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +3651,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 187.96 107.95 0)
+			(at 189.23 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,7 +3670,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3064,7 +3678,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 97.79 86.36 180)
+		(at 99.06 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3074,8 +3688,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5549c1e7-8d64-4770-81eb-a2a6fbd98c25")
-		(property "Reference" "R7"
-			(at 100.33 85.0899 0)
+		(property "Reference" "R12"
+			(at 101.6 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3086,7 +3700,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 100.33 87.6299 0)
+			(at 101.6 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3097,7 +3711,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 97.79 86.36 0)
+			(at 99.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 86.36 0)
+			(at 99.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,7 +3733,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 97.79 86.36 0)
+			(at 99.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3752,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3146,7 +3760,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 228.6 91.44 0)
+		(at 229.87 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3156,8 +3770,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b111669-07f9-4f06-8697-d5d7a3e79978")
-		(property "Reference" "C19"
-			(at 231.14 90.1762 0)
+		(property "Reference" "C24"
+			(at 232.41 96.5262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3168,7 +3782,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 231.14 92.7162 0)
+			(at 232.41 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3179,7 +3793,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 228.6 91.44 0)
+			(at 229.87 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +3804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 91.44 0)
+			(at 229.87 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,7 +3815,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 228.6 91.44 0)
+			(at 229.87 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3834,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C19")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3228,7 +3842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 111.76 0)
+		(at 52.07 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3236,10 +3850,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aa8b9dd-2268-410d-a68f-6f1c018b2c8b")
-		(property "Reference" "#PWR020"
-			(at 138.43 118.11 0)
+		(uuid "5c750a59-bbe6-4c9b-9253-46054fe821e6")
+		(property "Reference" "#PWR027"
+			(at 52.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,7 +3863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 116.84 0)
+			(at 52.07 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3260,7 +3873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 111.76 0)
+			(at 52.07 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,7 +3884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 111.76 0)
+			(at 52.07 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3895,245 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 111.76 0)
+			(at 52.07 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c734e549-f9b1-44dd-ba7f-747633ce69ff")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6161f756-5c92-41f8-bca1-a211348aa998")
+		(property "Reference" "R11"
+			(at 81.28 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R33"
+			(at 81.28 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d35cd33-fbb8-4fc6-8e1b-87260f74589a")
+		)
+		(pin "2"
+			(uuid "456e1346-4316-4c44-ac0f-97e8baa71d5a")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 142.24 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64418080-ccc5-4adc-8798-8bc389391acb")
+		(property "Reference" "JP6"
+			(at 145.034 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 137.16 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35c52e34-07d7-4fa5-aeef-51fd13006cc3")
+		)
+		(pin "2"
+			(uuid "417c36bc-21bc-4bc5-baab-8751bc298243")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa8b9dd-2268-410d-a68f-6f1c018b2c8b")
+		(property "Reference" "#PWR033"
+			(at 139.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,7 +4149,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3306,7 +4157,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 125.73 87.63 180)
+		(at 127 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3316,8 +4167,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1f7f59-a5aa-4f37-aee9-06d3d800345b")
-		(property "Reference" "R9"
-			(at 128.27 86.3599 0)
+		(property "Reference" "R14"
+			(at 129.54 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3328,7 +4179,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 128.27 88.8999 0)
+			(at 129.54 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3339,7 +4190,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 125.73 87.63 0)
+			(at 127 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3350,7 +4201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 87.63 0)
+			(at 127 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,7 +4212,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 125.73 87.63 0)
+			(at 127 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,7 +4231,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3388,7 +4239,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBRS340")
-		(at 200.66 90.17 270)
+		(at 201.93 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3399,7 +4250,7 @@
 		(fields_autoplaced yes)
 		(uuid "7050d09b-d40c-4f41-a6bd-4c1bf8466e88")
 		(property "Reference" "D4"
-			(at 203.2 88.5824 90)
+			(at 204.47 94.9324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3409,8 +4260,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MBRS340"
-			(at 203.2 91.1224 90)
+		(property "Value" "SS34"
+			(at 204.47 97.4724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3420,8 +4271,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 192.024 90.17 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 193.294 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3432,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbrs340t3-d.pdf"
-			(at 194.056 90.17 0)
+			(at 195.326 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,7 +4294,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC (DO-214AB)"
-			(at 196.088 90.17 0)
+			(at 197.358 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +4321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 111.76 0)
+		(at 201.93 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3480,8 +4331,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c57dfd-0856-4d31-a834-40a305dd1951")
-		(property "Reference" "#PWR023"
-			(at 200.66 118.11 0)
+		(property "Reference" "#PWR036"
+			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,7 +4343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 116.84 0)
+			(at 201.93 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3502,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 111.76 0)
+			(at 201.93 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3513,7 +4364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 111.76 0)
+			(at 201.93 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +4375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 111.76 0)
+			(at 201.93 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +4391,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR023")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3548,7 +4399,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 218.44 86.36 90)
+		(at 219.71 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3558,8 +4409,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3b6054-b907-4382-bf78-df40a4112149")
-		(property "Reference" "R8"
-			(at 218.44 81.28 90)
+		(property "Reference" "R13"
+			(at 219.71 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3569,7 +4420,7 @@
 			)
 		)
 		(property "Value" "0R33"
-			(at 218.44 83.82 90)
+			(at 219.71 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3579,7 +4430,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 218.44 86.36 0)
+			(at 219.71 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +4441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 86.36 0)
+			(at 219.71 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +4452,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 218.44 86.36 0)
+			(at 219.71 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +4471,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3628,7 +4479,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 66.04 81.28 180)
+		(at 64.77 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3639,7 +4490,7 @@
 		(fields_autoplaced yes)
 		(uuid "9885b30a-5619-4e12-abd3-f9e31d10fb74")
 		(property "Reference" "D3"
-			(at 66.3575 74.93 0)
+			(at 65.0875 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3649,7 +4500,7 @@
 			)
 		)
 		(property "Value" "1N5819HW"
-			(at 66.3575 77.47 0)
+			(at 65.0875 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3659,7 +4510,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 66.04 81.28 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +4521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 81.28 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +4532,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 66.04 81.28 0)
+			(at 64.77 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,8 +4558,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 228.6 85.09 0)
+		(lib_id "power:GND")
+		(at 52.07 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3716,10 +4567,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f63ce77-7b26-4068-9fb5-df7cf0982dd2")
-		(property "Reference" "#PWR017"
-			(at 228.6 88.9 0)
+		(uuid "9e383e51-1781-4469-aa69-a15a0376f07a")
+		(property "Reference" "#PWR031"
+			(at 52.07 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3729,8 +4579,8 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 228.6 80.01 0)
+		(property "Value" "GND"
+			(at 52.07 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3740,7 +4590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 85.09 0)
+			(at 52.07 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +4601,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 85.09 0)
+			(at 52.07 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6998a845-2332-48d5-b66f-4defbd7b0eec")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 229.87 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f63ce77-7b26-4068-9fb5-df7cf0982dd2")
+		(property "Reference" "#PWR028"
+			(at 229.87 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 229.87 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +4690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 228.6 85.09 0)
+			(at 229.87 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3778,7 +4706,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR017")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3786,7 +4714,7 @@
 	)
 	(symbol
 		(lib_id "Battery_Management:LT3652IMSE")
-		(at 154.94 93.98 0)
+		(at 156.21 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3796,8 +4724,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3d06c7f-d80b-4acd-af8c-83370a0c94a0")
-		(property "Reference" "U9"
-			(at 157.0833 78.74 0)
+		(property "Reference" "U8"
+			(at 158.3533 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3808,7 +4736,7 @@
 			)
 		)
 		(property "Value" "LT3652IMSE"
-			(at 157.0833 81.28 0)
+			(at 158.3533 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3819,7 +4747,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm_ThermalVias"
-			(at 154.94 109.22 0)
+			(at 156.21 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +4758,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf"
-			(at 170.18 114.3 0)
+			(at 171.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +4769,7 @@
 			)
 		)
 		(property "Description" "Step-down battery charger for solar power, Lithium Phosphate (LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, 2A, -40 to +125 degree Celsius, MSOP-12"
-			(at 154.94 93.98 0)
+			(at 156.21 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3893,7 +4821,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3901,7 +4829,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 138.43 106.68 0)
+		(at 139.7 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3911,8 +4839,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab3392a8-3f7d-471a-b2cc-5a548d1957dd")
-		(property "Reference" "C20"
-			(at 140.97 105.4162 0)
+		(property "Reference" "C25"
+			(at 142.24 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3923,7 +4851,7 @@
 			)
 		)
 		(property "Value" "680nF"
-			(at 140.97 107.9562 0)
+			(at 142.24 114.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3934,7 +4862,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 138.43 106.68 0)
+			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,7 +4873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 106.68 0)
+			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,7 +4884,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 138.43 106.68 0)
+			(at 139.7 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3975,7 +4903,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C20")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3983,7 +4911,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 87.63 0)
+		(at 88.9 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3993,8 +4921,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aedfe1a1-39b1-4b29-8b0a-7867c73984f6")
-		(property "Reference" "#PWR018"
-			(at 81.28 93.98 0)
+		(property "Reference" "#PWR030"
+			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,7 +4933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 92.71 0)
+			(at 88.9 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4015,7 +4943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 87.63 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 87.63 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4037,7 +4965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 87.63 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +4981,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4989,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 66.04 60.96 180)
+		(at 64.77 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4072,7 +5000,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfd04252-240c-42da-b38b-ce95e6183f6b")
 		(property "Reference" "D1"
-			(at 66.3575 54.61 0)
+			(at 65.0875 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4082,7 +5010,7 @@
 			)
 		)
 		(property "Value" "1N5819HW"
-			(at 66.3575 57.15 0)
+			(at 65.0875 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4092,7 +5020,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 66.04 60.96 0)
+			(at 64.77 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4103,7 +5031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 60.96 0)
+			(at 64.77 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +5042,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 66.04 60.96 0)
+			(at 64.77 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,8 +5068,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 179.07 91.44 0)
+		(lib_id "power:GND")
+		(at 52.07 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4149,9 +5077,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c93376c9-927e-4fff-8ee9-1a875d2ac8f1")
-		(property "Reference" "D6"
-			(at 176.276 88.392 0)
+		(uuid "c8b873d3-9018-46d6-94ed-90be8b615bdf")
+		(property "Reference" "#PWR029"
+			(at 52.07 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4160,8 +5089,8 @@
 				)
 			)
 		)
-		(property "Value" "1N5819HW"
-			(at 183.388 88.392 0)
+		(property "Value" "GND"
+			(at 52.07 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4170,8 +5099,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 179.07 91.44 0)
+		(property "Footprint" ""
+			(at 52.07 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4182,7 +5111,163 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 91.44 0)
+			(at 52.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38033fef-aeaf-447d-ae06-e57e99629574")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c91e14d8-bbc1-4f86-a832-e5b4bc2cd9b5")
+		(property "Reference" "J3"
+			(at 46.228 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.355 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+			(at 45.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "484ce320-54ea-43c6-861b-e32c80941233")
+		)
+		(pin "1"
+			(uuid "eb6292b8-eb45-4778-a8d1-7443b9d2c065")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 180.34 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c93376c9-927e-4fff-8ee9-1a875d2ac8f1")
+		(property "Reference" "D5"
+			(at 177.546 94.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819HW"
+			(at 184.658 94.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 180.34 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,7 +5278,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 179.07 91.44 0)
+			(at 180.34 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4212,7 +5297,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4220,7 +5305,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 187.96 100.33 180)
+		(at 189.23 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4230,8 +5315,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd0f1101-8df1-4a8b-b9fb-34bead5543ee")
-		(property "Reference" "R11"
-			(at 190.5 99.0599 0)
+		(property "Reference" "R16"
+			(at 191.77 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4242,7 +5327,7 @@
 			)
 		)
 		(property "Value" "626k"
-			(at 190.5 101.5999 0)
+			(at 191.77 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4253,7 +5338,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 187.96 100.33 0)
+			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4264,7 +5349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 100.33 0)
+			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +5360,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 187.96 100.33 0)
+			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,15 +5379,15 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 97.79 96.52 180)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4311,31 +5396,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dcf239ea-4599-4773-a441-ac09e8533d35")
-		(property "Reference" "R10"
-			(at 100.33 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 100.33 97.7899 0)
+		(uuid "d1ad5fed-3775-4994-b19f-94b1879dc672")
+		(property "Reference" "J5"
+			(at 46.355 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 97.79 96.52 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.355 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+			(at 45.72 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +5430,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 96.52 0)
+			(at 45.72 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2035e36-b97e-494c-8ba4-4bd5463438c8")
+		)
+		(pin "2"
+			(uuid "16f18f23-6ff0-4cfa-910b-2e9a68b05052")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf239ea-4599-4773-a441-ac09e8533d35")
+		(property "Reference" "R15"
+			(at 101.6 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 101.6 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 99.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4357,7 +5523,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 97.79 96.52 0)
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +5542,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4384,7 +5550,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 170.18 88.9 0)
+		(at 171.45 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4393,8 +5559,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e14678c5-2381-4040-8be9-88fe01f9173b")
-		(property "Reference" "C18"
-			(at 168.91 82.042 0)
+		(property "Reference" "C23"
+			(at 170.18 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4404,8 +5570,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 169.164 84.328 0)
+		(property "Value" "1uF 50V"
+			(at 170.434 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,8 +5581,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 170.18 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 171.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +5593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 88.9 0)
+			(at 171.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +5604,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 88.9 0)
+			(at 171.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,7 +5623,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4465,7 +5631,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 81.28 82.55 0)
+		(at 88.9 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4475,8 +5641,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ced460-16a5-4d60-9931-29d1892e27ec")
-		(property "Reference" "C17"
-			(at 83.82 81.2862 0)
+		(property "Reference" "C22"
+			(at 91.44 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4487,7 +5653,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 83.82 83.8262 0)
+			(at 91.44 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4497,8 +5663,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 81.28 82.55 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,7 +5675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 82.55 0)
+			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +5686,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 82.55 0)
+			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +5705,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4547,7 +5713,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 66.04 71.12 180)
+		(at 64.77 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4555,10 +5721,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ebc0bbb3-3a1b-45c3-9c99-06a89f4593d8")
 		(property "Reference" "D2"
-			(at 66.3575 64.77 0)
+			(at 65.024 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4568,7 +5733,7 @@
 			)
 		)
 		(property "Value" "1N5819HW"
-			(at 66.3575 67.31 0)
+			(at 65.0875 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4578,7 +5743,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 66.04 71.12 0)
+			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4589,7 +5754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 71.12 0)
+			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4600,7 +5765,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 66.04 71.12 0)
+			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4627,7 +5792,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 207.01 86.36 90)
+		(at 208.28 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4638,7 +5803,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7fe1761-ebb3-43a6-847b-7061e0bf9d6f")
 		(property "Reference" "L3"
-			(at 207.01 81.28 90)
+			(at 208.28 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4648,7 +5813,7 @@
 			)
 		)
 		(property "Value" "47uH"
-			(at 207.01 83.82 90)
+			(at 208.28 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4658,7 +5823,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_TDK_SLF7032"
-			(at 207.01 86.36 0)
+			(at 208.28 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4669,7 +5834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 86.36 0)
+			(at 208.28 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4680,7 +5845,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 207.01 86.36 0)
+			(at 208.28 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +5872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 111.76 0)
+		(at 189.23 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4717,8 +5882,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f935dc94-819b-4691-9ab8-2794542fb3cc")
-		(property "Reference" "#PWR022"
-			(at 187.96 118.11 0)
+		(property "Reference" "#PWR035"
+			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +5894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 116.84 0)
+			(at 189.23 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4739,7 +5904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 111.76 0)
+			(at 189.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,7 +5915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 111.76 0)
+			(at 189.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4761,7 +5926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 111.76 0)
+			(at 189.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4777,7 +5942,164 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR022")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 45.72 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcf57a24-9af3-48f6-ac0b-8a319fe8e4d3")
+		(property "Reference" "J4"
+			(at 46.228 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 46.355 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+			(at 45.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 45.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5caf08ba-b9ee-4ebe-88d0-ebfbfff5b39f")
+		)
+		(pin "2"
+			(uuid "c6a931af-25e9-42ea-a559-76a5d8c3a927")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffd4977f-3e59-451a-9f70-e7befee69c7a")
+		(property "Reference" "#PWR026"
+			(at 52.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "910bfbc8-7804-4ed0-9146-f2998f2ab6d6")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
