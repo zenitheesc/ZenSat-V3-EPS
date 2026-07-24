@@ -2531,6 +2531,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 82.55) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1c9cd9-1f73-4b69-8ec0-522d751a0ee0")
+	)
+	(wire
+		(pts
 			(xy 139.7 107.95) (xy 143.51 107.95)
 		)
 		(stroke
@@ -2678,6 +2688,16 @@
 			(type default)
 		)
 		(uuid "9a089da3-24cb-4216-a26b-874408b6a57f")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 77.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a74578d-8c96-41f5-ae76-ff1d4109c361")
 	)
 	(wire
 		(pts
@@ -3019,7 +3039,7 @@
 		)
 		(uuid "ff3467d6-edaf-4279-9908-3d2bb226c874")
 	)
-	(global_label "+SOL_Sense"
+	(global_label "SOL_Sense+"
 		(shape input)
 		(at 77.47 78.74 90)
 		(fields_autoplaced yes)
@@ -3043,7 +3063,7 @@
 			)
 		)
 	)
-	(global_label "-SOL_Sense"
+	(global_label "SOL_Sense-"
 		(shape input)
 		(at 85.09 78.74 90)
 		(fields_autoplaced yes)
@@ -3123,7 +3143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2a13e3-47b1-4899-9db0-cc103d5def29")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 46.355 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3206,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3204,7 +3224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1420bd31-a7b0-4356-849b-3e03c2621754")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR053"
 			(at 156.21 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3264,7 +3284,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR034")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3282,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3056ea-bb46-4f20-9c56-7c2bfaea4b82")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 115.57 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +3372,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3876c538-912a-4af1-97d2-c9b3b2b23f75")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR051"
 			(at 99.06 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3430,7 +3450,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR032")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d4947e0-eca5-46d1-b92d-90fd368853ff")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR056"
 			(at 229.87 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3508,7 +3528,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR037")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3606,7 +3626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cde6bc-ca78-4f0d-a652-84d5816ff81d")
-		(property "Reference" "R17"
+		(property "Reference" "R35"
 			(at 191.77 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3690,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R17")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -3688,7 +3708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5549c1e7-8d64-4770-81eb-a2a6fbd98c25")
-		(property "Reference" "R12"
+		(property "Reference" "R30"
 			(at 101.6 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3699,7 +3719,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "233k"
 			(at 101.6 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3752,7 +3772,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R12")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b111669-07f9-4f06-8697-d5d7a3e79978")
-		(property "Reference" "C24"
+		(property "Reference" "C34"
 			(at 232.41 96.5262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,7 +3854,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C24")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3851,7 +3871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c750a59-bbe6-4c9b-9253-46054fe821e6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR045"
 			(at 52.07 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3911,7 +3931,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR027")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3929,7 +3949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6161f756-5c92-41f8-bca1-a211348aa998")
-		(property "Reference" "R11"
+		(property "Reference" "R29"
 			(at 81.28 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +4011,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R11")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4008,7 +4028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64418080-ccc5-4adc-8798-8bc389391acb")
-		(property "Reference" "JP6"
+		(property "Reference" "JP2"
 			(at 145.034 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4091,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "JP6")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -4089,7 +4109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aa8b9dd-2268-410d-a68f-6f1c018b2c8b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR052"
 			(at 139.7 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4149,7 +4169,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR033")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4167,7 +4187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1f7f59-a5aa-4f37-aee9-06d3d800345b")
-		(property "Reference" "R14"
+		(property "Reference" "R32"
 			(at 129.54 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4231,7 +4251,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R14")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4321,6 +4341,166 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 77.47 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71ca79df-9192-48c1-8901-100ac9679025")
+		(property "Reference" "#PWR048"
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adca368b-7780-4002-a5c7-90c8e7360183")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "874d8750-d048-4207-89c0-a8538191acef")
+		(property "Reference" "C31"
+			(at 80.01 87.6235 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 80.01 90.1635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d6bd214e-2466-49b0-80aa-4fc1a304f726")
+		)
+		(pin "1"
+			(uuid "09f66785-fc50-4227-b73a-041fab41a48f")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 201.93 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -4331,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c57dfd-0856-4d31-a834-40a305dd1951")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR055"
 			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4391,7 +4571,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR036")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4409,7 +4589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3b6054-b907-4382-bf78-df40a4112149")
-		(property "Reference" "R13"
+		(property "Reference" "R31"
 			(at 219.71 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4471,7 +4651,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R13")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4568,7 +4748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e383e51-1781-4469-aa69-a15a0376f07a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR050"
 			(at 52.07 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4628,7 +4808,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR031")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4646,7 +4826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f63ce77-7b26-4068-9fb5-df7cf0982dd2")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR046"
 			(at 229.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4706,7 +4886,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR028")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4724,7 +4904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3d06c7f-d80b-4acd-af8c-83370a0c94a0")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 158.3533 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +5001,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4839,7 +5019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab3392a8-3f7d-471a-b2cc-5a548d1957dd")
-		(property "Reference" "C25"
+		(property "Reference" "C35"
 			(at 142.24 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +5083,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C25")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4921,7 +5101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aedfe1a1-39b1-4b29-8b0a-7867c73984f6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR049"
 			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4981,7 +5161,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR030")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8b873d3-9018-46d6-94ed-90be8b615bdf")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR047"
 			(at 52.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5138,7 +5318,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR029")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5155,7 +5335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c91e14d8-bbc1-4f86-a832-e5b4bc2cd9b5")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 46.228 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5218,7 +5398,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5315,7 +5495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd0f1101-8df1-4a8b-b9fb-34bead5543ee")
-		(property "Reference" "R16"
+		(property "Reference" "R34"
 			(at 191.77 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5379,7 +5559,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R16")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5397,7 +5577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ad5fed-3775-4994-b19f-94b1879dc672")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 46.355 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5640,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5478,7 +5658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf239ea-4599-4773-a441-ac09e8533d35")
-		(property "Reference" "R15"
+		(property "Reference" "R33"
 			(at 101.6 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,7 +5669,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "25,2k"
 			(at 101.6 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +5722,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R15")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5559,7 +5739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e14678c5-2381-4040-8be9-88fe01f9173b")
-		(property "Reference" "C23"
+		(property "Reference" "C33"
 			(at 170.18 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5623,7 +5803,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C23")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5641,7 +5821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ced460-16a5-4d60-9931-29d1892e27ec")
-		(property "Reference" "C22"
+		(property "Reference" "C32"
 			(at 91.44 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5705,7 +5885,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C22")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -5882,7 +6062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f935dc94-819b-4691-9ab8-2794542fb3cc")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR054"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5942,7 +6122,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR035")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5959,7 +6139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcf57a24-9af3-48f6-ac0b-8a319fe8e4d3")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 46.228 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6022,7 +6202,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6039,7 +6219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffd4977f-3e59-451a-9f70-e7befee69c7a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR044"
 			(at 52.07 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6099,7 +6279,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR026")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)

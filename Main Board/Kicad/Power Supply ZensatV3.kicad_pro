@@ -63,7 +63,7 @@
           "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 3,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
@@ -530,6 +530,17 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -667,7 +678,7 @@
         "uuid": "64de738a-78a3-405a-9208-2090dc1f201b"
       }
     ],
-    "used_designators": "U1-11,L1-5,#PWR1-44,BT1-4,C1-30,R1-24,#BATTN1,#BATTP1,J1-5,Q1,TH1-2,D1-10,JP1-15",
+    "used_designators": "U1-11,L1-5,#PWR1-56,BT1-4,C1-35,R1-35,#BATTN1,#BATTP1,J1-7,Q1,TH1-2,D1-10,JP1-15",
     "variants": []
   },
   "sheets": [
