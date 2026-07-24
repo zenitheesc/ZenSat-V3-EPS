@@ -1332,184 +1332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Reference_Current:LM234Z-3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2076,6 +1898,12 @@
 		(uuid "1bf2bea1-e2c1-4513-886d-71bb1558b1ec")
 	)
 	(junction
+		(at 142.24 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39c83622-1805-4cfb-9f93-5019dd5b4952")
+	)
+	(junction
 		(at 201.93 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2086,12 +1914,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "418a079b-940b-416c-98db-bbc1cbf3f224")
-	)
-	(junction
-		(at 142.24 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "571331b1-becb-4591-8841-2318a1516b37")
 	)
 	(junction
 		(at 71.12 88.9)
@@ -2106,10 +1928,10 @@
 		(uuid "5fc74e23-1739-48e6-b7e1-0dac9778aa58")
 	)
 	(junction
-		(at 142.24 92.71)
+		(at 142.24 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "65048797-5661-4f93-9992-b1ff453eef7d")
+		(uuid "65af645d-7c7d-44d5-96bf-41d9060a4303")
 	)
 	(junction
 		(at 99.06 97.79)
@@ -2211,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 156.21 82.55)
+			(xy 119.38 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2281,13 +2103,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 142.24 92.71)
+			(xy 135.89 92.71) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ceca394-927c-4d18-a862-19307f39d607")
+		(uuid "1701d45e-e18d-4f8c-995f-fb525c78e304")
 	)
 	(wire
 		(pts
@@ -2318,6 +2140,16 @@
 			(type default)
 		)
 		(uuid "28723332-d83d-4f77-a3b0-5c9c93663a97")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 156.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8b562c-5d34-44c1-a6cb-3c2a66960d4f")
 	)
 	(wire
 		(pts
@@ -2381,6 +2213,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff90275-d163-43f8-82e0-898dde541421")
+	)
+	(wire
+		(pts
 			(xy 229.87 100.33) (xy 229.87 118.11)
 		)
 		(stroke
@@ -2398,6 +2240,16 @@
 			(type default)
 		)
 		(uuid "4b9f861c-64ea-4dc2-b56a-def55a0f06e6")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccfc45e-4f1f-452d-989c-e5f32e1761cb")
 	)
 	(wire
 		(pts
@@ -2651,6 +2503,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 82.55) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4c0895-6e78-444f-b42e-349a49d3c166")
+	)
+	(wire
+		(pts
 			(xy 99.06 105.41) (xy 99.06 106.68)
 		)
 		(stroke
@@ -2658,6 +2520,16 @@
 			(type default)
 		)
 		(uuid "8d59138a-aadb-4e5d-bf7b-cfcfc2551bb8")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962c4c77-9c54-4e75-8946-002416c44d88")
 	)
 	(wire
 		(pts
@@ -2738,6 +2610,16 @@
 			(type default)
 		)
 		(uuid "a3109d94-2704-4a79-95f9-864c5fa5daac")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a319a187-dea0-4e49-8e57-4ba82adc50ba")
 	)
 	(wire
 		(pts
@@ -2861,16 +2743,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 142.24 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0244e0b-29e0-4521-986c-973c281ca5a9")
-	)
-	(wire
-		(pts
 			(xy 156.21 113.03) (xy 156.21 118.11)
 		)
 		(stroke
@@ -2888,16 +2760,6 @@
 			(type default)
 		)
 		(uuid "c3cc8d61-ecf6-4f85-8081-403804b8c533")
-	)
-	(wire
-		(pts
-			(xy 142.24 92.71) (xy 140.97 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1a9ba5-c438-49fc-b41d-76554b4fbbfd")
 	)
 	(wire
 		(pts
@@ -2938,6 +2800,16 @@
 			(type default)
 		)
 		(uuid "e08b9f65-82b2-4e03-bd45-1f9cc47cae2a")
+	)
+	(wire
+		(pts
+			(xy 133.35 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58c3a88-76cf-4c6d-9d11-61482debdafc")
 	)
 	(wire
 		(pts
@@ -3122,7 +2994,7 @@
 	)
 	(hierarchical_label "~{SHDN}"
 		(shape input)
-		(at 140.97 92.71 180)
+		(at 120.65 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3143,7 +3015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2a13e3-47b1-4899-9db0-cc103d5def29")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 46.355 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,7 +3078,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1420bd31-a7b0-4356-849b-3e03c2621754")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR068"
 			(at 156.21 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3284,7 +3156,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR053")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3876c538-912a-4af1-97d2-c9b3b2b23f75")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR066"
 			(at 99.06 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3450,7 +3322,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR051")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3468,7 +3340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d4947e0-eca5-46d1-b92d-90fd368853ff")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR071"
 			(at 229.87 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3528,7 +3400,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR056")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3626,7 +3498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cde6bc-ca78-4f0d-a652-84d5816ff81d")
-		(property "Reference" "R35"
+		(property "Reference" "R46"
 			(at 191.77 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,7 +3562,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R35")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -3708,7 +3580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5549c1e7-8d64-4770-81eb-a2a6fbd98c25")
-		(property "Reference" "R30"
+		(property "Reference" "R40"
 			(at 101.6 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +3644,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R30")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3790,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b111669-07f9-4f06-8697-d5d7a3e79978")
-		(property "Reference" "C34"
+		(property "Reference" "C39"
 			(at 232.41 96.5262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,7 +3726,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C34")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -3871,7 +3743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c750a59-bbe6-4c9b-9253-46054fe821e6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR060"
 			(at 52.07 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3931,7 +3803,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR045")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3949,7 +3821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6161f756-5c92-41f8-bca1-a211348aa998")
-		(property "Reference" "R29"
+		(property "Reference" "R38"
 			(at 81.28 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,87 +3883,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 142.24 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64418080-ccc5-4adc-8798-8bc389391acb")
-		(property "Reference" "JP2"
-			(at 145.034 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 146.05 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 142.24 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 137.16 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35c52e34-07d7-4fa5-aeef-51fd13006cc3")
-		)
-		(pin "2"
-			(uuid "417c36bc-21bc-4bc5-baab-8751bc298243")
-		)
-		(instances
-			(project "Power Supply ZensatV3"
-				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "JP2")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4109,7 +3901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aa8b9dd-2268-410d-a68f-6f1c018b2c8b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR067"
 			(at 139.7 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4169,7 +3961,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR052")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4187,7 +3979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1f7f59-a5aa-4f37-aee9-06d3d800345b")
-		(property "Reference" "R32"
+		(property "Reference" "R43"
 			(at 129.54 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4251,7 +4043,86 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R32")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 138.43 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e2889a4-3c9d-43a6-9874-25f01ca89201")
+		(property "Reference" "R41"
+			(at 138.43 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 138.43 90.678 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 138.43 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 138.43 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe9e0c78-ae42-4a47-afd5-ae338dc28467")
+		)
+		(pin "2"
+			(uuid "f993076a-26e7-497c-bf95-bd4173f5c2e2")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4351,7 +4222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71ca79df-9192-48c1-8901-100ac9679025")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR063"
 			(at 77.47 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4411,7 +4282,89 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR048")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 142.24 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845eb9ef-9f03-42b9-be83-69fec7df1b1b")
+		(property "Reference" "R39"
+			(at 144.78 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 144.78 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "085450f3-f778-43f0-af77-b92579705547")
+		)
+		(pin "2"
+			(uuid "07698c94-8a92-4091-8d47-c66c7e3b73cf")
+		)
+		(instances
+			(project "Power Supply ZensatV3"
+				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874d8750-d048-4207-89c0-a8538191acef")
-		(property "Reference" "C31"
+		(property "Reference" "C36"
 			(at 80.01 87.6235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4493,7 +4446,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C31")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c57dfd-0856-4d31-a834-40a305dd1951")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR070"
 			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4571,7 +4524,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR055")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3b6054-b907-4382-bf78-df40a4112149")
-		(property "Reference" "R31"
+		(property "Reference" "R42"
 			(at 219.71 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4604,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R31")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -4748,7 +4701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e383e51-1781-4469-aa69-a15a0376f07a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR065"
 			(at 52.07 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4808,7 +4761,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR050")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4826,7 +4779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f63ce77-7b26-4068-9fb5-df7cf0982dd2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR061"
 			(at 229.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4886,7 +4839,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR046")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5019,7 +4972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab3392a8-3f7d-471a-b2cc-5a548d1957dd")
-		(property "Reference" "C35"
+		(property "Reference" "C40"
 			(at 142.24 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5083,7 +5036,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C35")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aedfe1a1-39b1-4b29-8b0a-7867c73984f6")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR064"
 			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5161,7 +5114,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR049")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8b873d3-9018-46d6-94ed-90be8b615bdf")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR062"
 			(at 52.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5318,7 +5271,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR047")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c91e14d8-bbc1-4f86-a832-e5b4bc2cd9b5")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 46.228 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5351,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5495,7 +5448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd0f1101-8df1-4a8b-b9fb-34bead5543ee")
-		(property "Reference" "R34"
+		(property "Reference" "R45"
 			(at 191.77 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5559,7 +5512,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R34")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5577,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ad5fed-3775-4994-b19f-94b1879dc672")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 46.355 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,7 +5593,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf239ea-4599-4773-a441-ac09e8533d35")
-		(property "Reference" "R33"
+		(property "Reference" "R44"
 			(at 101.6 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +5675,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "R33")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5739,7 +5692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e14678c5-2381-4040-8be9-88fe01f9173b")
-		(property "Reference" "C33"
+		(property "Reference" "C38"
 			(at 170.18 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,7 +5756,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C33")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5821,7 +5774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ced460-16a5-4d60-9931-29d1892e27ec")
-		(property "Reference" "C32"
+		(property "Reference" "C37"
 			(at 91.44 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5838,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "C32")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -6062,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f935dc94-819b-4691-9ab8-2794542fb3cc")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR069"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6122,7 +6075,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR054")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6139,7 +6092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcf57a24-9af3-48f6-ac0b-8a319fe8e4d3")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 46.228 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6202,7 +6155,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6219,7 +6172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffd4977f-3e59-451a-9f70-e7befee69c7a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR059"
 			(at 52.07 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6279,7 +6232,7 @@
 		(instances
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/2e922904-ff10-4af4-b918-0c7939a35aa2"
-					(reference "#PWR044")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
