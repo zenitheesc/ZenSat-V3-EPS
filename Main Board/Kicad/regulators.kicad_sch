@@ -1636,12 +1636,6 @@
 		(uuid "ad8a7ef9-1259-4621-94c1-b01e8387a368")
 	)
 	(junction
-		(at 107.95 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "100a3cf1-29d1-4754-a95a-7a25aba1b4fb")
-	)
-	(junction
 		(at 180.34 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1738,12 +1732,6 @@
 		(uuid "7ea04c0e-8b0b-4517-83d4-3df845cc0566")
 	)
 	(junction
-		(at 107.95 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f6f226-0d5e-4634-b5f0-8cfbcde5f333")
-	)
-	(junction
 		(at 82.55 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1786,12 +1774,6 @@
 		(uuid "ac757003-e8b3-4b82-b161-56da7b08f41b")
 	)
 	(junction
-		(at 107.95 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afc20b79-37f8-4949-89d0-7f6773262524")
-	)
-	(junction
 		(at 139.7 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1808,12 +1790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9a691ac-526a-4b7a-99b0-04f0723bbfe6")
-	)
-	(junction
-		(at 107.95 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccfd4d35-f689-43e0-a11b-02f867473be8")
 	)
 	(junction
 		(at 190.5 45.72)
@@ -1959,16 +1935,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 88.9) (xy 107.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18782185-37a0-4fd4-93f0-b7e65d85f4f3")
-	)
-	(wire
-		(pts
 			(xy 210.82 45.72) (xy 217.17 45.72)
 		)
 		(stroke
@@ -1989,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 115.57 88.9)
+			(xy 82.55 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 115.57 93.98)
+			(xy 104.14 93.98) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2506,16 +2472,6 @@
 			(type default)
 		)
 		(uuid "81a0b92e-0d8e-412a-ae15-a7f3155e4aee")
-	)
-	(wire
-		(pts
-			(xy 104.14 93.98) (xy 107.95 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8420edc6-b710-4804-93db-099f3228d981")
 	)
 	(wire
 		(pts
@@ -2679,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 107.95 48.26)
+			(xy 104.14 48.26) (xy 115.57 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2706,16 +2662,6 @@
 			(type default)
 		)
 		(uuid "a37047b3-e9f8-4e23-8a0a-ea7753560db0")
-	)
-	(wire
-		(pts
-			(xy 107.95 43.18) (xy 115.57 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a374d6b7-ac97-415f-995f-b199278f7624")
 	)
 	(wire
 		(pts
@@ -2959,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 43.18) (xy 107.95 43.18)
+			(xy 82.55 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3006,16 +2952,6 @@
 			(type default)
 		)
 		(uuid "e44767a7-083a-4866-89c6-7854e892ee24")
-	)
-	(wire
-		(pts
-			(xy 107.95 48.26) (xy 115.57 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e67a1023-00f0-488f-8ca6-fe443ec4eb58")
 	)
 	(wire
 		(pts
@@ -4865,88 +4801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c4b9e70-0454-4bd7-99a7-d22ab53163c9")
-		(property "Reference" "R15"
-			(at 110.49 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "*0R"
-			(at 110.49 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 107.95 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 107.95 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc52cfc5-1fb4-4cfe-a924-974f6e6409e4")
-		)
-		(pin "2"
-			(uuid "14825738-bca2-4b28-a076-e438a2ad3e11")
-		)
-		(instances
-			(project "Power Supply ZensatV3"
-				(path "/64de738a-78a3-405a-9208-2090dc1f201b/4e272359-939b-4428-bdf1-656f4c28d372"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 82.55 50.8 180)
 		(unit 1)
@@ -5707,88 +5561,6 @@
 			(project "Power Supply ZensatV3"
 				(path "/64de738a-78a3-405a-9208-2090dc1f201b/4e272359-939b-4428-bdf1-656f4c28d372"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e12f5cbe-49c1-49f4-a606-2656da66193b")
-		(property "Reference" "R10"
-			(at 110.49 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "*0R"
-			(at 110.49 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 107.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 107.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c42750bf-705a-4834-b2c3-7695dd8cfc19")
-		)
-		(pin "2"
-			(uuid "3c58ebaa-a322-45bf-8139-8ff95778c4dc")
-		)
-		(instances
-			(project "Power Supply ZensatV3"
-				(path "/64de738a-78a3-405a-9208-2090dc1f201b/4e272359-939b-4428-bdf1-656f4c28d372"
-					(reference "R10")
 					(unit 1)
 				)
 			)
