@@ -4578,7 +4578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 10V"
 			(at 138.43 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,7 +5790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 10V"
 			(at 138.43 95.2562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6105,7 +6105,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 10V"
 			(at 186.6836 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,7 +6266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 10V"
 			(at 138.43 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
