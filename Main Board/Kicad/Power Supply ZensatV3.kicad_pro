@@ -556,6 +556,7 @@
       "netlist": "",
       "plot": "D:/Projetos/Zenith/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -678,7 +679,7 @@
         "uuid": "64de738a-78a3-405a-9208-2090dc1f201b"
       }
     ],
-    "used_designators": "C41-42",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
