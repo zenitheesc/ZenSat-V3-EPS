@@ -2758,12 +2758,6 @@
 		(uuid "6aa52d3f-c882-4989-a3b2-b2a824749c36")
 	)
 	(junction
-		(at 57.15 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bdf29e7-e5ac-4c13-8e5d-cd7758cdd7f6")
-	)
-	(junction
 		(at 114.3 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2822,6 +2816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa180383-bb5a-4e75-8e38-9393b25ac3c4")
+	)
+	(junction
+		(at 57.15 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0c9989f-f6ff-49c0-8ced-e441401ef552")
 	)
 	(junction
 		(at 251.46 107.95)
@@ -2973,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 134.62) (xy 57.15 138.43)
+			(xy 63.5 134.62) (xy 63.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3140,6 +3140,16 @@
 			(type default)
 		)
 		(uuid "3f051eb8-9904-4091-971a-229ee45ae4ed")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9bc669-84c2-4dbb-961c-2875c1a775e2")
 	)
 	(wire
 		(pts
@@ -4435,7 +4445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 243.84 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -4938,7 +4948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P30.48mm_Horizontal"
 			(at 264.922 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -5336,7 +5346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 58.42 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5415,7 +5425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 172.212 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -5707,7 +5717,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64d711de-10c1-4dc2-8a05-ba1c64e6d64c")
 		(property "Reference" "J3"
 			(at 45.72 141.6049 90)
@@ -5721,7 +5730,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 45.72 144.1449 90)
+			(at 52.07 145.4149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5731,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 44.45 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 58.42 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5922,7 +5931,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c4")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -6045,7 +6054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 44.45 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6079,7 +6088,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c5")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -6280,7 +6289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6681,7 +6690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 58.42 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6715,7 +6724,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c6")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -6915,7 +6924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 44.45 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6949,7 +6958,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c7")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -6994,7 +7003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 44.45 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7028,7 +7037,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c8")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -7388,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -7438,7 +7447,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 57.15 143.51 270)
+		(at 63.5 144.78 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7446,10 +7455,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c34f7ba3-da8f-435a-90c9-e6651632d69d")
 		(property "Reference" "J1"
-			(at 58.42 141.6049 90)
+			(at 66.04 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7460,7 +7468,8 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 58.42 144.1449 90)
+			(at 71.12 147.32 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7470,8 +7479,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 143.51 0)
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
+			(at 63.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7482,7 +7491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 143.51 0)
+			(at 63.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7493,7 +7502,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 143.51 0)
+			(at 63.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7504,7 +7513,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c9")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -7707,7 +7716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P30.48mm_Horizontal"
 			(at 254.762 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -8073,7 +8082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.682 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -8133,7 +8142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac91f57-2bce-4953-b088-9db64b51e044")
-		(property "Reference" "J1"
+		(property "Reference" "B1"
 			(at 260.35 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8153,7 +8162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD"
 			(at 259.08 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8225,7 +8234,7 @@
 		(instances
 			(project "PCB Bateria"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J1")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P30.48mm_Horizontal"
 			(at 275.082 88.9 90)
 			(hide yes)
 			(show_name no)
