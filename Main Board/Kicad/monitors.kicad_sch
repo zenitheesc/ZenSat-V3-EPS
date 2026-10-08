@@ -1618,16 +1618,6 @@
 		)
 		(uuid "33ddd8b0-3add-4523-b8e0-43a64320fa8c")
 	)
-	(text "Resistores para escolha do endereço.\nUsar apenas 1."
-		(exclude_from_sim no)
-		(at 58.42 132.588 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5509c80-eabc-411c-8cd6-eded19c13e26")
-	)
 	(text "I/V Monitor"
 		(exclude_from_sim no)
 		(at 185.166 42.672 0)
@@ -3023,7 +3013,7 @@
 			)
 		)
 	)
-	(global_label "SOL_Sense+"
+	(global_label "SOL+"
 		(shape input)
 		(at 124.46 88.9 180)
 		(fields_autoplaced yes)
@@ -3035,7 +3025,7 @@
 		)
 		(uuid "7b45024b-fca1-4aa1-ab31-4d4c7d18b1b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.8029 88.9 0)
+			(at 116.3343 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

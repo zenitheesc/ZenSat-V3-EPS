@@ -2758,12 +2758,6 @@
 		(uuid "6aa52d3f-c882-4989-a3b2-b2a824749c36")
 	)
 	(junction
-		(at 57.15 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bdf29e7-e5ac-4c13-8e5d-cd7758cdd7f6")
-	)
-	(junction
 		(at 114.3 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,6 +2804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fcbeccf-c1a7-4145-8a85-1b4ebe0b2c6c")
+	)
+	(junction
+		(at 57.15 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0c99678-4738-40b6-a15b-ffe5c7275267")
 	)
 	(junction
 		(at 45.72 93.98)
@@ -5922,7 +5922,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c4")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -6079,7 +6079,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c5")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -6715,7 +6715,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c6")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -6949,7 +6949,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c7")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -7028,7 +7028,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c8")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -7504,7 +7504,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c3")
+			(uuid "c79d84e2-ff79-4e71-89a0-1e7677bc79c9")
 		)
 		(instances
 			(project "PCB Bateria"
@@ -8133,7 +8133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac91f57-2bce-4953-b088-9db64b51e044")
-		(property "Reference" "J1"
+		(property "Reference" "B1"
 			(at 260.35 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,7 +8225,7 @@
 		(instances
 			(project "PCB Bateria"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J1")
+					(reference "B1")
 					(unit 1)
 				)
 			)

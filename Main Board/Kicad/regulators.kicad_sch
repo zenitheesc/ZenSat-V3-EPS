@@ -1645,16 +1645,6 @@
 		)
 		(uuid "52daf5ac-875a-405a-8c74-82d1ccaa380c")
 	)
-	(text "*Usar para o modo de operação sem o microcontrolador"
-		(exclude_from_sim no)
-		(at 211.074 158.242 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ad8a7ef9-1259-4621-94c1-b01e8387a368")
-	)
 	(junction
 		(at 180.34 60.96)
 		(diameter 0)
