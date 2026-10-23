@@ -3552,12 +3552,6 @@
 		(uuid "23203261-4732-4feb-aca9-03941855837a")
 	)
 	(junction
-		(at 40.64 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ce274cb-22ff-4f1f-9d07-d53395c8854f")
-	)
-	(junction
 		(at 168.91 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3592,12 +3586,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48450973-2ed1-48c5-b6aa-a8fa54579480")
-	)
-	(junction
-		(at 107.95 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49e636a1-9848-4079-a8ac-861b44ee8f4d")
 	)
 	(junction
 		(at 39.37 31.75)
@@ -3642,12 +3630,6 @@
 		(uuid "6aa52d3f-c882-4989-a3b2-b2a824749c36")
 	)
 	(junction
-		(at 107.95 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dac1bcc-6e8a-4883-9e67-cb3e5aa68d5b")
-	)
-	(junction
 		(at 39.37 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3690,16 +3672,22 @@
 		(uuid "a4e3f473-a1e3-4161-b1ab-0e810f13edc8")
 	)
 	(junction
-		(at 40.64 124.46)
+		(at 40.64 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9fac340-022c-41ad-8eb4-02844f3749ba")
+		(uuid "a7b09b12-6bb7-419e-8a04-94a807b801b1")
 	)
 	(junction
 		(at 185.42 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa180383-bb5a-4e75-8e38-9393b25ac3c4")
+	)
+	(junction
+		(at 40.64 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db259879-867c-4cec-b54a-16681189ef75")
 	)
 	(junction
 		(at 248.92 128.27)
@@ -3776,16 +3764,6 @@
 			(type default)
 		)
 		(uuid "04609c42-fb59-4bfa-9533-42c18e958aad")
-	)
-	(wire
-		(pts
-			(xy 111.76 91.44) (xy 107.95 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067862c9-7b91-4d23-bfe3-7013c754fe39")
 	)
 	(wire
 		(pts
@@ -4036,16 +4014,6 @@
 			(type default)
 		)
 		(uuid "2513cd73-d814-418a-b398-4f347eecf512")
-	)
-	(wire
-		(pts
-			(xy 107.95 68.58) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2608c4e7-2ead-4874-85b1-29a244b95e2d")
 	)
 	(wire
 		(pts
@@ -4359,16 +4327,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 119.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50b7470a-93d5-4713-aef7-8cceaaf1f9bd")
-	)
-	(wire
-		(pts
 			(xy 127 171.45) (xy 127 180.34)
 		)
 		(stroke
@@ -4479,6 +4437,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 31.75) (xy 115.57 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615fc01e-9a96-4791-8fc8-2ff2be8ca6f2")
+	)
+	(wire
+		(pts
 			(xy 109.22 171.45) (xy 109.22 166.37)
 		)
 		(stroke
@@ -4486,26 +4454,6 @@
 			(type default)
 		)
 		(uuid "6175205d-fd70-45a4-aaa0-4b48fe3a99c1")
-	)
-	(wire
-		(pts
-			(xy 40.64 109.22) (xy 40.64 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6298f274-6cf9-4033-b6af-3cbaa04b34b9")
-	)
-	(wire
-		(pts
-			(xy 111.76 76.2) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6382f432-5760-4f08-8595-e50a24935ee7")
 	)
 	(wire
 		(pts
@@ -4569,16 +4517,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 119.38 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d6fb7bf-b7d8-41f5-8778-17fb9e54bf85")
-	)
-	(wire
-		(pts
 			(xy 148.59 26.67) (xy 148.59 33.02)
 		)
 		(stroke
@@ -4606,16 +4544,6 @@
 			(type default)
 		)
 		(uuid "6f9b0583-a37b-4211-9078-fb34effa52ac")
-	)
-	(wire
-		(pts
-			(xy 40.64 101.6) (xy 40.64 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7074ac38-18a3-43c5-bea7-84c775cb27b8")
 	)
 	(wire
 		(pts
@@ -4726,6 +4654,16 @@
 			(type default)
 		)
 		(uuid "7aa1eef6-e939-4e07-8b8e-d5bd932419b7")
+	)
+	(wire
+		(pts
+			(xy 40.64 101.6) (xy 40.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c577421-d954-4a25-9cec-b80d17bee4d6")
 	)
 	(wire
 		(pts
@@ -4899,16 +4837,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 116.84 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9abace03-753c-4947-bc87-a7eb8b63ea1c")
-	)
-	(wire
-		(pts
 			(xy 217.17 128.27) (xy 237.49 128.27)
 		)
 		(stroke
@@ -4919,7 +4847,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 107.95 83.82)
+			(xy 107.95 68.58) (xy 107.95 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4946,16 +4874,6 @@
 			(type default)
 		)
 		(uuid "9f860b7a-07b7-4af5-a8e2-dcec65026719")
-	)
-	(wire
-		(pts
-			(xy 40.64 124.46) (xy 40.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08f9388-7787-4973-a546-1bb2f4ad2c0e")
 	)
 	(wire
 		(pts
@@ -4999,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 120.65) (xy 40.64 124.46)
+			(xy 40.64 111.76) (xy 40.64 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5199,7 +5117,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 124.46) (xy 40.64 124.46)
+			(xy 38.1 113.03) (xy 40.64 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5246,16 +5164,6 @@
 			(type default)
 		)
 		(uuid "c8370350-6c7e-46c9-9659-7ede08dafded")
-	)
-	(wire
-		(pts
-			(xy 107.95 91.44) (xy 107.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d94df2-55f3-4fdf-b333-21be5aabbe10")
 	)
 	(wire
 		(pts
@@ -5369,6 +5277,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 24.13) (xy 115.57 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df21fb31-0376-48da-8887-95a9c44a8172")
+	)
+	(wire
+		(pts
 			(xy 83.82 26.67) (xy 87.63 26.67)
 		)
 		(stroke
@@ -5429,6 +5347,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 113.03) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cd1362-482f-4cd2-842c-8bf9f42a2da8")
+	)
+	(wire
+		(pts
 			(xy 67.31 127) (xy 92.71 127)
 		)
 		(stroke
@@ -5459,6 +5387,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 120.65) (xy 40.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3f5845-073b-43a8-89f6-dd915e9be7af")
+	)
+	(wire
+		(pts
+			(xy 40.64 120.65) (xy 40.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf79951-a30b-4149-b84b-7c69e68574bf")
+	)
+	(wire
+		(pts
 			(xy 248.92 128.27) (xy 256.54 128.27)
 		)
 		(stroke
@@ -5476,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "f02e2ad2-7848-4f4d-b160-1e2a4da2452b")
+	)
+	(wire
+		(pts
+			(xy 41.91 118.11) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08108c8-67c2-4537-93e2-a1eabecb90b3")
 	)
 	(wire
 		(pts
@@ -5499,7 +5457,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 113.03) (xy 40.64 115.57)
+			(xy 40.64 104.14) (xy 40.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5788,7 +5746,7 @@
 		(uuid "8487b9bb-2b9b-46bf-80d1-7990c3ef5475")
 	)
 	(label "BATT_Sense"
-		(at 39.37 124.46 180)
+		(at 38.1 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5806,16 +5764,6 @@
 			(justify left bottom)
 		)
 		(uuid "88f83581-4b18-4ed8-b7ef-fb58df08ee87")
-	)
-	(label "I2C2_SDA"
-		(at 119.38 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a933a8aa-8d61-41f4-b679-290c16dfb30d")
 	)
 	(label "I2C2_SDA"
 		(at 100.33 63.5 0)
@@ -7227,7 +7175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa0c425-ca07-4113-8118-38394b6ecefd")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 266.7 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7291,7 +7239,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7734,7 +7682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 150.368 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -7875,7 +7823,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 45.72 106.68 0)
+		(at 46.99 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7885,8 +7833,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534960ee-74c3-4775-9dd4-0071524954c3")
-		(property "Reference" "J10"
-			(at 46.99 106.6799 0)
+		(property "Reference" "J2"
+			(at 48.26 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7897,7 +7845,7 @@
 			)
 		)
 		(property "Value" "PwrON"
-			(at 46.99 109.2199 0)
+			(at 48.26 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7907,8 +7855,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 45.72 106.68 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7919,7 +7867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 106.68 0)
+			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7878,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 45.72 106.68 0)
+			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +7897,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8212,7 +8160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "592fd701-d47b-4a04-9daf-e3ff1fa6149d")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 41.91 158.1149 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,7 +8221,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8620,7 +8568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d5a20ea-32f0-4de3-ba08-173231291e87")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 187.6482 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,7 +8632,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8847,6 +8795,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60973633-ad9e-47e6-810b-acb2ce8f67a2")
+		(property "Reference" "C8"
+			(at 118.11 26.6762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 10V"
+			(at 118.11 29.2162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 115.57 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97460dc8-3586-48ff-915f-9eff3b86ca99")
+		)
+		(pin "1"
+			(uuid "0f4c9713-7035-4fc6-b8bf-26b7797362d1")
+		)
+		(instances
+			(project "PCB Bateria 09082026"
+				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 24.13 135.89 270)
 		(unit 1)
@@ -8858,7 +8899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d711de-10c1-4dc2-8a05-ba1c64e6d64c")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 25.4 133.9849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8919,7 +8960,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9015,7 +9056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6624bc6f-8651-45fe-8a24-80e188ef9ea1")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 41.91 146.6849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,7 +9117,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9094,7 +9135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b6586f-eafe-4328-9da1-9d9a6bf5f76d")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 25.4 146.6849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9155,7 +9196,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9399,6 +9440,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 115.57 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "702a3947-46f4-4869-bdd5-64db1cf82437")
+		(property "Reference" "#PWR029"
+			(at 115.57 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e920a64f-82fe-4a4d-baa6-69927d0f516b")
+		)
+		(instances
+			(project "PCB Bateria 09082026"
+				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 193.04 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -9475,84 +9593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "788d5473-4678-4a2a-a273-5b2636e12f79")
-		(property "Reference" "#PWR023"
-			(at 119.38 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "318f9208-bfc0-40b5-98c7-548b9db012aa")
-		)
-		(instances
-			(project "PCB Bateria 09082026"
-				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 214.63 33.02 0)
 		(unit 1)
@@ -9586,7 +9626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Varistor:RV_Disc_D7mm_W3.4mm_P5mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 214.63 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9713,7 +9753,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 40.64 113.03 90)
+		(at 40.64 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9723,8 +9763,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "798e0128-04fb-48b0-a4a5-e14c1fd59485")
-		(property "Reference" "#FLG02"
-			(at 38.735 113.03 0)
+		(property "Reference" "#FLG03"
+			(at 38.735 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +9775,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 36.83 113.0299 90)
+			(at 36.83 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9746,7 +9786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 113.03 0)
+			(at 40.64 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9757,7 +9797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 113.03 0)
+			(at 40.64 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9768,7 +9808,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 40.64 113.03 0)
+			(at 40.64 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,7 +9824,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10260,7 +10300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b67dcd-5335-40a5-b05d-e9211a4c7582")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 41.91 168.2749 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10321,7 +10361,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10416,7 +10456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0d196b-c2a9-4016-b0c5-abea989d03c9")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 247.015 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10477,7 +10517,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10651,7 +10691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3596ce9-778f-4e06-b8fb-b6535da22f3f")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 25.4 158.1149 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10712,7 +10752,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10809,7 +10849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f8bb60-da60-4610-a727-dc362a908533")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 25.4 168.2749 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10870,7 +10910,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11475,7 +11515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c34f7ba3-da8f-435a-90c9-e6651632d69d")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 41.91 133.9849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11536,7 +11576,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11628,6 +11668,84 @@
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VP")
+		(at 115.57 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8aa66cc-8c13-4751-889c-6c07c55ea932")
+		(property "Reference" "#PWR023"
+			(at 119.38 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VP"
+			(at 115.57 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+			(at 115.57 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b63d225-3926-4fcd-a1a7-8583f41f8eb8")
+		)
+		(instances
+			(project "PCB Bateria 09082026"
+				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12390,7 +12508,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 40.64 118.11 0)
+		(at 40.64 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12400,8 +12518,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8552088-7c2e-4f9f-933a-e1d217938fef")
-		(property "Reference" "R20"
-			(at 42.8682 116.8399 0)
+		(property "Reference" "R18"
+			(at 42.8682 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12412,7 +12530,7 @@
 			)
 		)
 		(property "Value" "R10"
-			(at 42.8682 119.3799 0)
+			(at 42.8682 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12423,7 +12541,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 40.64 118.11 0)
+			(at 40.64 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12434,7 +12552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 118.11 0)
+			(at 40.64 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12445,7 +12563,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 40.64 118.11 0)
+			(at 40.64 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12464,7 +12582,7 @@
 		(instances
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12586,97 +12704,6 @@
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
 					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 114.3 76.2 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebe8269e-a10d-4038-a0ba-2f47077c410c")
-		(property "Reference" "R10"
-			(at 114.3 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 114.3 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 114.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 114.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 114.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d46e6eae-1199-44f1-8a3d-962f9cf56f72")
-		)
-		(pin "2"
-			(uuid "1b054651-78e1-4146-9a2c-d6439a1b10e1")
-		)
-		(instances
-			(project "PCB Bateria 09082026"
-				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12863,97 +12890,6 @@
 			(project "PCB Bateria 09082026"
 				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 114.3 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7a4b0dc-0bed-48d6-8d26-ad3534506a85")
-		(property "Reference" "R14"
-			(at 114.3 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 114.3 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 114.3 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 114.3 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 114.3 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38b00caa-36c4-45aa-bb60-2b6b5055f465")
-		)
-		(pin "2"
-			(uuid "204b47f0-de90-44ed-84dc-70b84849cbb3")
-		)
-		(instances
-			(project "PCB Bateria 09082026"
-				(path "/971c4c7f-6281-4dec-89fa-5359e9e039dc"
-					(reference "R14")
 					(unit 1)
 				)
 			)

@@ -34,7 +34,7 @@
 "R12,R17","2","100k","","","","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 "R13","1","43,2k","","","","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 "R15,R43,R47","3","1k","","","","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-"R18","1","14,9k","","","","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+"R18","1","24,9k","","","","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 "R28,R33,R34,R35,R37,R39,R41","7","0R","","","","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 "R38,R42","2","0R33","","","","Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 "R40","1","233k","","","","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
